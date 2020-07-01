@@ -27,6 +27,13 @@ module.exports = {
 				path: `${__dirname}/src/assets/icons`,
 			},
 		},
+		{
+			resolve: 'gatsby-plugin-styled-components',
+			options: {
+				displayName: false,
+				fileName: false,
+			},
+		},
 		'gatsby-plugin-react-helmet',
 		{
 			resolve: 'gatsby-plugin-manifest',
