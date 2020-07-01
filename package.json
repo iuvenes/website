@@ -1,0 +1,57 @@
+{
+	"name": "iuvenes",
+	"version": "0.1.0",
+	"license": "MIT",
+	"author": "lasmedia <lasmedia2018@gmail.com>",
+	"scripts": {
+		"start": "gatsby develop",
+		"build": "gatsby build",
+		"clean": "gatsby clean",
+		"format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+		"eslint": "eslint \"**/*.{js,jsx}\" --fix",
+		"stylelint": "stylelint \"**/*.{js,css,scss}\" --fix",
+		"prelint": "npm run format",
+		"lint": "npm run stylelint",
+		"postlint": "npm run eslint"
+	},
+	"dependencies": {
+		"gatsby": "^2.23.12",
+		"prop-types": "^15.7.2",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1"
+	},
+	"devDependencies": {
+		"eslint": "^7.3.1",
+		"eslint-config-airbnb": "^18.2.0",
+		"eslint-plugin-import": "^2.22.0",
+		"eslint-plugin-jsx-a11y": "^6.3.1",
+		"eslint-plugin-react": "^7.20.3",
+		"eslint-plugin-react-hooks": "^4.0.5",
+		"gatsby-plugin-root-import": "^2.0.5",
+		"husky": "^4.2.5",
+		"lint-staged": "^10.2.11",
+		"prettier": "^2.0.5",
+		"stylelint": "^13.6.1",
+		"stylelint-config-property-sort-order-smacss": "^6.3.0",
+		"stylelint-config-standard": "^20.0.0"
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "lint-staged"
+		}
+	},
+	"lint-staged": {
+		"*.js": [
+			"prettier --config .prettierrc --write",
+			"stylelint --fix",
+			"eslint --fix"
+		],
+		"*.{json,md}": [
+			"prettier --config .prettierrc --write"
+		],
+		"*.{css,scss}": [
+			"prettier --config .prettierrc --write",
+			"stylelint --fix"
+		]
+	}
+}
