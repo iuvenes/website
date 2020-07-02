@@ -1,0 +1,17 @@
+logo:
+  title: wróć do strony głównej
+  to: /
+  cover:
+    file: icons/logotype.svg
+    alt: ''
+menu:
+  - title: 'o nas'
+    to: '/#o_nas'
+  - title: 'oferta'
+    to: '/#oferta'
+  - title: 'projekty'
+    to: '/#projekty'
+  - title: 'program leaders'
+    to: '/program_leaders'
+  - title: 'kontakt'
+    to: '/#kontakt'
