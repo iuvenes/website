@@ -34,6 +34,14 @@ module.exports = {
 				fileName: false,
 			},
 		},
+		{
+			resolve: 'gatsby-source-filesystem',
+			options: {
+				name: 'content',
+				path: `${__dirname}/content`,
+			},
+		},
+		'gatsby-transformer-yaml',
 		'gatsby-plugin-react-helmet',
 		{
 			resolve: 'gatsby-plugin-manifest',
