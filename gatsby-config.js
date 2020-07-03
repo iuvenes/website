@@ -42,6 +42,8 @@ module.exports = {
 			},
 		},
 		'gatsby-transformer-yaml',
+		'gatsby-transformer-sharp',
+		'gatsby-plugin-sharp',
 		'gatsby-plugin-react-helmet',
 		{
 			resolve: 'gatsby-plugin-manifest',
