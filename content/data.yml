@@ -15,3 +15,19 @@ menu:
     to: '/program_leaders'
   - title: 'kontakt'
     to: '/#kontakt'
+hero:
+  title: "Z nami marzenia\nstają się rzeczywistością."
+  subtitle: "Biuro projektowe z kompleksową usługą\nod projektu po wykonanie."
+  cover: 
+    file: img/hero.jpg
+    alt: ''
+  button:
+    title: zobacz więcej
+    to: /#uslugi
+  links:
+    - title: Projekty kompleksowe
+      to: /#kompleksowa_usluga_od_projektu_po_wykonanie
+    - title: Interaktywny projekt budynku
+      to: /#interaktywny_projekt_budynku
+    - title: Badanie charakterystyki energetycznej
+      to: /#badanie_charakterystki_energetycznej
