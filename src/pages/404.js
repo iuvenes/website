@@ -1,5 +1,11 @@
 import React from 'react';
 
-const NotFoundPage = () => <h1>404 test page</h1>;
+import SEO from 'components/SEO';
+
+const NotFoundPage = () => (
+	<>
+		<SEO title="404: Strony nie odnaleziono" />
+	</>
+);
 
 export default NotFoundPage;
