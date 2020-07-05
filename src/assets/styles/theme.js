@@ -11,6 +11,8 @@ const theme = {
 		overlayBright: 'rgba(255,255,255,.75)',
 		overlayDark: 'rgba(0,0,0,.75)',
 		logoColor: '#249470',
+		ctaBorder: '#F1F3F2B3',
+		ctaOverlay: '#F1F3F240',
 	},
 	mq: {
 		mobileMid: '@media (min-width: 23.5rem)',
