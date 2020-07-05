@@ -13,6 +13,7 @@ const theme = {
 		logoColor: '#249470',
 		ctaBorder: '#F1F3F2B3',
 		ctaOverlay: '#F1F3F240',
+		heroLinks: '#F1F3F29A',
 	},
 	mq: {
 		mobileMid: '@media (min-width: 23.5rem)',
