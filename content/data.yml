@@ -31,3 +31,27 @@ hero:
       to: /#interaktywny_projekt_budynku
     - title: Badanie charakterystyki energetycznej
       to: /#badanie_charakterystki_energetycznej
+services:
+  title: "Usługi"
+  cards:
+    - id: kompleksowa_usluga_od_projektu_po_wykonanie
+      title: "Kompleksowa usługa\nod projektu po wykonanie"
+      text: Oferujemy kompleksową usługę od pierwszych konsultacji z nami, po pełne wykonanie projektu w stanie surowym. Obejmuje ona między innymi projekt koncepcyjny, budowlany i wykonawczy, a także koniecznie projekty branżowe. Usługa może również obejmować projekt wnętrz.
+      to: ''
+      cover:
+        file: img/services1.jpg
+        alt: Para młodych ludzi otrzymuje klucze do nowego mieszkania
+    - id: interaktywny_projekt_budynku
+      title: interaktywny projekt budynku
+      text: "Zrób to sam!\nMy pomożemy w reszcie.\nSkorzystaj z aplikacji interaktywnej do wstępnego zaprojektowania swojego budynku, jego układu, lokalizacji okien, drzwi, czy mebli. Skonsultuj projekt z nami, dzięki czemu stworzymy wspólnie projekt Twoich marzeń."
+      to: ''
+      cover:
+        file: img/services2.jpg
+        alt: Dłonie architekta kreślącego plany
+    - id: badanie_charakterystki_energetycznej
+      title: Badanie charakterystyki energetycznej
+      text: Projektowana charakterystyka energetyczna budynku to jedna ze specjalizacji naszej firmy. Zapewniamy kompleksowe podejście do realizacji dokumentacji energetycznej. Klientom dostarczamy rzetelnie wykonane certyfikaty, które opisują stan energetyczny budynku.
+      to: ''
+      cover:
+        file: img/services3.jpg
+        alt: Zdjęcie rozgrzewającej się żarówki
