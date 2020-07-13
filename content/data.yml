@@ -55,3 +55,11 @@ services:
       cover:
         file: img/services3.jpg
         alt: Zdjęcie rozgrzewającej się żarówki
+about:
+  title: O nas
+  subtitle: Jesteśmy teamem młodych, prężnie działających profesjonalistów.Oferujemy wszechstronny zakres usług w połączeniu z najwyższą jakością i terminowością.
+  text: Zajmujemy się opracowywaniem projektów koncepcyjnych, budowlanych i wykonawczych z zakresu budownictwa mieszkalnego oraz aranżacji wnętrz, wzbogaconego o analizy kosztowe, specyfikacje techniczne, kosztorysy, czy wizualizacje 3D.Nasze specjalności to konstrukcje budowlane(projekty wykonawcze, nadzór i wykonawstwo) i prace monterskie.Dodatkowo oferujemy usługi badań termoizolacyjności i szczelności budynków lub mieszkań.Wystawiamy raporty z badań wraz z zaleceniami i dokumentacją zdjęciową.
+  quote:
+    text: "Stawiamy na jakość.\nSłuchamy Twoich potrzeb.\nJesteśmy w tym dobrzy."
+    cite: iuvenes engineering
+    icon: icons/iuvenesBright.svg
