@@ -63,3 +63,35 @@ about:
     text: "Stawiamy na jakość.\nSłuchamy Twoich potrzeb.\nJesteśmy w tym dobrzy."
     cite: iuvenes engineering
     icon: icons/iuvenesBright.svg
+offer:
+  title: Oferta
+  text: W naszej ofercie znajdziesz szeroki wachlarz usług. Zajmiemy się Twoim projektem zarówno kompleksowo, jak i na szczególnym, wybranym przez Ciebie etapie powstawania.
+  cards:
+    - id: architektura
+      title: Architektura
+      text: Sporządzamy projekty architektoniczne budynków mieszkalnych, użyteczności publicznej, jak i przemysłowych. Podejmujemy troskę nad całym procesem projektowym od pierwszego spotkania, przez proces koncepcyjny wraz z wizualizacjami 3D, po uzyskanie decyzji o pozwoleniu na budowę.
+      to: ''
+      cover:
+        file: img/offer1.jpg
+        alt: Białe domy w stylu skandynawskim w zabudowie szeregowej
+    - id: inzynieria
+      title: Inżynieria
+      text: Sporządzamy projekty budowlane, konstrukcyjne i wykonawcze. Projekty w zależności od potrzeb klienta obejmują kosztorysowanie, analizy czy specyfikacje techniczne. Ponadto niezależnie podejmiemy się badaniom charakterystyki energetycznej, badaniom wentylacji i szczelności budynku.
+      to: ''
+      cover:
+        file: img/offer2.jpg
+        alt: Zdjęcie przedstawiające budynek przemysłowy
+    - id: wnetrza
+      title: Wnętrza
+      text: Wykonujemy kompleksowe projekty zarówno przestrzeni komercyjnych i publicznych, jak i wnętrz prywatnych. Projekt rozpoczynamy poprzez rzetelną analizę funkcjonalną. Zakres projektu obejmuje m.in. inwentaryzację wnętrz, rysunki techniczne umeblowania i oświetlenia, a także wizualizacje 3D.
+      to: ''
+      cover:
+        file: img/offer3.jpg
+        alt: Zdjęcie przedstawiające wnętrze salonu
+    - id: nadzor_i_wykonastwo
+      title: Nadzór i wykonawstwo
+      text: "Podejmujemy się na nadzoru, a nawet wykonawstwa sporządzonych u nas projektów. Przekuwając projekty wyrysowane na kartce w zrealizowane przedsięwzięcia, ściągamy z Państwa ciężar doglądania inwestycji. W zależności od potrzeb oferujemy 3 zaawansowania inwestycji: stan surowy, deweloperski oraz pod klucz."
+      to: ''
+      cover:
+        file: img/offer4.jpg
+        alt: Zdjęcie przedstawia plac budowy, centralne miejsce kadru zajmują wysokie dźwigi budowlane
