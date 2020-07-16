@@ -95,3 +95,24 @@ offer:
       cover:
         file: img/offer4.jpg
         alt: Zdjęcie przedstawia plac budowy, centralne miejsce kadru zajmują wysokie dźwigi budowlane
+projects:
+  title: Projekty
+  button:
+    title: więcej projektów
+    to: /
+  images:
+    - file: 'img/001-A - WIZUALIZACJA 1.jpg'
+      id: wizualizacja_domu
+      alt: Wizualizacja domu
+    - file: 'img/001-A - WIZUALIZACJA 3.jpg'
+      id: wizualizacja_podworka
+      alt: Wizualizacja podwórka
+    - file: 'img/003-A - P1.jpg'
+      id: wizualizacja_domku
+      alt: Wizualizacja domku
+    - file: 'img/008-A- W2.jpg'
+      id: wizualizacja_kuchni
+      alt: Wizualizacja kuchni
+    - file: 'img/PRZEDPOKÓJ - 3A.jpg'
+      id: wizualizacja_przedpokoju
+      alt: Wizualizacja przedpokoju
