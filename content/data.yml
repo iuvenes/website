@@ -116,3 +116,13 @@ projects:
     - file: 'img/PRZEDPOKÓJ - 3A.jpg'
       id: wizualizacja_przedpokoju
       alt: Wizualizacja przedpokoju
+leaders:
+  title: Program Leaders
+  text: Firma Iuvenes Engineering skorzystała z dofinansowania w ramach programu Leaders 2014-2020, który posłużył do szybkiego rozwoju naszej firmy i zaopatrzenia jej zarówno w wyspecjalizowany sprzęt badawczy, jak i niezbędne oprogramowanie techniczne.
+  quote: Wsparcie na wdrażanie operacji w ramach strategii rozwoju lokalnego kierowanego przez społeczność
+  icons: [
+    'icons/eu.svg',
+    'icons/leaders.svg',
+    'icons/prow.svg',
+  ]
+
