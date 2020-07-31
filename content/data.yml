@@ -133,3 +133,15 @@ leadersPage:
     'icons/leaders.svg',
     'icons/prow.svg',
   ]
+contact:
+  title: Kontakt
+  icon: icons/iuvenes.svg
+  subtitle: SKONTAKTUJ SIĘ Z NAMI!
+  text: "Jeśli masz pytania, czy wątpliwości, pozostań z nami w kontakcie.\nOdpowiemy na wszystkie pytania."
+  links:
+    - title: +48 506 355 120
+      to: 506 355 120
+      type: phone
+    - title: biuro@iuvenesengineering.pl
+      to: biuro@iuvenesengineering.pl
+      type: mail
