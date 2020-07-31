@@ -125,4 +125,11 @@ leaders:
     'icons/leaders.svg',
     'icons/prow.svg',
   ]
-
+leadersPage:
+  title: Program Leaders
+  text: 'Celem głównym PROW 2014 – 2020 jest poprawa konkurencyjności rolnictwa, zrównoważone zarządzanie zasobami naturalnymi i działania w dziedzinie klimatu oraz zrównoważony rozwój terytorialny obszarów wiejskich. Firma Iuvenes Engineering skorzystała z dofinansowania w ramach programu Leaders 2014-2020 "Europejski Fundusz Rolny na rzecz Rozwoju Obszarów Wiejskich: Europa inwestująca w obszary wiejskie" tj. "Wsparcie na wdrażanie operacji w ramach strategii rozwoju lokalnego kierowanego przez społeczność" na operację pt. "Utworzenie przedsiębiorstwa świadczącego usługę kompleksową w dziedzinach badań charakterystyki energetycznej, kosztorysowania i projektowania budynków przy pomocy interaktywnej aplikacji komputerowej". Posłużył on do szybkiego rozwoju naszej firmy i zaopatrzenia jej zarówno w wyspecjalizowany sprzęt badawczy, jak i niezbędne oprogramowanie techniczne.'
+  icons: [
+    'icons/eu.svg',
+    'icons/leaders.svg',
+    'icons/prow.svg',
+  ]
