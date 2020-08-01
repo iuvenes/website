@@ -5,6 +5,7 @@ import { ThemeProvider } from 'styled-components';
 import { theme, GlobalStyle } from 'assets/styles';
 
 import Navbar from 'views/Navbar';
+import Contact from 'views/Contact';
 import { Main } from './styles';
 
 export const marginContext = createContext({
@@ -55,7 +56,10 @@ const Layout = ({ children }) => {
 			<GlobalStyle />
 			<MarginProvider value={layoutValues}>
 				<Navbar id="navbar" />
-				<Main>{children}</Main>
+				<Main>
+					{children}
+					<Contact id="kontakt" />
+				</Main>
 			</MarginProvider>
 		</ThemeProvider>
 	);
