@@ -4,6 +4,7 @@ import getImageMaxHeight from './getImageMaxHeight';
 import getWidestAspect from './getWidestAspect';
 import getWidthArr from './getWidthArr';
 import makeContactLink from './makeContactLink';
+import getDateRange from './getDateRange';
 
 export {
 	getOffset,
@@ -12,4 +13,5 @@ export {
 	getWidestAspect,
 	getWidthArr,
 	makeContactLink,
+	getDateRange,
 };

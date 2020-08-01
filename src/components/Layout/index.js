@@ -6,6 +6,7 @@ import { theme, GlobalStyle } from 'assets/styles';
 
 import Navbar from 'views/Navbar';
 import Contact from 'views/Contact';
+import Footer from 'views/Footer';
 import { Main } from './styles';
 
 export const marginContext = createContext({
@@ -60,6 +61,7 @@ const Layout = ({ children }) => {
 					{children}
 					<Contact id="kontakt" />
 				</Main>
+				<Footer id="footer" />
 			</MarginProvider>
 		</ThemeProvider>
 	);
