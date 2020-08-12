@@ -20,5 +20,18 @@ module.exports = {
 				views: path.join(__dirname, 'src/views'),
 			},
 		},
+		{
+			resolve: 'gatsby-plugin-manifest',
+			options: {
+				name: 'Iuvenes Engineering',
+				short_name: 'Iuvenes',
+				lang: 'pl',
+				start_url: '/',
+				background_color: '#4A615D',
+				theme_color: '#4A615D',
+				display: 'minimal-ui',
+				icon: 'src/assets/icons/iuvenes.png',
+			},
+		},
 	],
 };
