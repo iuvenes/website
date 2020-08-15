@@ -5,6 +5,7 @@ import Hero from 'views/Hero';
 import Services from 'views/Services';
 import About from 'views/About';
 import Offer from 'views/Offer';
+import Projects from 'views/Projects';
 
 const IndexPage = () => (
 	<>
@@ -13,6 +14,7 @@ const IndexPage = () => (
 		<Services id="uslugi" />
 		<About id="o_nas" />
 		<Offer id="oferta" />
+		<Projects id="projekty" />
 	</>
 );
 
