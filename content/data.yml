@@ -95,27 +95,6 @@ offer:
       cover:
         file: img/offer4.jpg
         alt: Zdjęcie przedstawia plac budowy, centralne miejsce kadru zajmują wysokie dźwigi budowlane
-projects:
-  title: Projekty
-  button:
-    title: więcej projektów
-    to: /galeria
-  images:
-    - file: 'img/001-A - WIZUALIZACJA 1.jpg'
-      id: wizualizacja_domu
-      alt: Wizualizacja domu
-    - file: 'img/001-A - WIZUALIZACJA 3.jpg'
-      id: wizualizacja_podworka
-      alt: Wizualizacja podwórka
-    - file: 'img/003-A - P1.jpg'
-      id: wizualizacja_domku
-      alt: Wizualizacja domku
-    - file: 'img/008-A- W2.jpg'
-      id: wizualizacja_kuchni
-      alt: Wizualizacja kuchni
-    - file: 'img/PRZEDPOKÓJ - 3A.jpg'
-      id: wizualizacja_przedpokoju
-      alt: Wizualizacja przedpokoju
 leaders:
   title: Program Leaders
   text: Firma Iuvenes Engineering skorzystała z dofinansowania w ramach programu Leaders 2014-2020, który posłużył do szybkiego rozwoju naszej firmy i zaopatrzenia jej zarówno w wyspecjalizowany sprzęt badawczy, jak i niezbędne oprogramowanie techniczne.
@@ -145,55 +124,3 @@ contact:
     - title: biuro@iuvenesengineering.pl
       to: biuro@iuvenesengineering.pl
       type: mail
-gallery:
-  title: Galeria
-  galleries:
-    - title: Budynki
-      images:
-        - file: 'img/001-A - WIZUALIZACJA 1.jpg'
-          id: wizualizacja_domu
-          alt: Wizualizacja domu
-        - file: 'img/001-A - WIZUALIZACJA 3.jpg'
-          id: wizualizacja_podworka
-          alt: Wizualizacja podwórka
-        - file: 'img/003-A - P1.jpg'
-          id: wizualizacja_domku
-          alt: Wizualizacja domku
-        - file: 'img/008-A- W2.jpg'
-          id: wizualizacja_kuchni
-          alt: Wizualizacja kuchni
-        - file: 'img/PRZEDPOKÓJ - 3A.jpg'
-          id: wizualizacja_przedpokoju
-          alt: Wizualizacja przedpokoju
-        - file: 'img/008-A- W2.jpg'
-          id: wizualizacja_kuchni
-          alt: Wizualizacja kuchni
-        - file: 'img/PRZEDPOKÓJ - 3A.jpg'
-          id: wizualizacja_przedpokoju
-          alt: Wizualizacja przedpokoju
-        - file: 'img/008-A- W2.jpg'
-          id: wizualizacja_kuchni
-          alt: Wizualizacja kuchni
-        - file: 'img/001-A - WIZUALIZACJA 3.jpg'
-          id: wizualizacja_podworka
-          alt: Wizualizacja podwórka
-        - file: 'img/PRZEDPOKÓJ - 3A.jpg'
-          id: wizualizacja_przedpokoju
-          alt: Wizualizacja przedpokoju
-    - title: Wnętrza
-      images:
-        - file: 'img/001-A - WIZUALIZACJA 1.jpg'
-          id: wizualizacja_domu
-          alt: Wizualizacja domu
-        - file: 'img/001-A - WIZUALIZACJA 3.jpg'
-          id: wizualizacja_podworka
-          alt: Wizualizacja podwórka
-        - file: 'img/003-A - P1.jpg'
-          id: wizualizacja_domku
-          alt: Wizualizacja domku
-        - file: 'img/008-A- W2.jpg'
-          id: wizualizacja_kuchni
-          alt: Wizualizacja kuchni
-        - file: 'img/PRZEDPOKÓJ - 3A.jpg'
-          id: wizualizacja_przedpokoju
-          alt: Wizualizacja przedpokoju

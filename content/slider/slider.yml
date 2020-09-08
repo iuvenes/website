@@ -1,0 +1,17 @@
+title: Projekty
+button:
+  title: więcej projektów
+  to: /galeria
+images:
+  - file: ../img/001-A - WIZUALIZACJA 1.jpg
+    alt: Wizualizacja domu
+  - file: ../img/001-A - WIZUALIZACJA 3.jpg
+    alt: Wizualizacja podwórka
+  - file: ../img/003-A - P1.jpg
+    alt: Wizualizacja domku
+  - file: ../img/008-A- W2.jpg
+    alt: Wizualizacja kuchni
+  - file: ../img/PRZEDPOKÓJ - 3A.jpg
+    alt: Wizualizacja przedpokoju
+  - file: ../img/001-A - WIZUALIZACJA 4.jpg
+    alt: budynek noca

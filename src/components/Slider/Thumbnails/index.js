@@ -66,10 +66,10 @@ const Thumbnails = ({ maxHeight, className }) => {
 			onMouseLeave={deactivate}
 		>
 			<Container padding={dynamicMargin} width={sliderWidth}>
-				{images.map(({ id, alt, file }, i) => (
+				{images.map(({ alt, file }, i) => (
 					<SlideBtn
 						onClick={() => handleClick(i)}
-						key={id}
+						key={file.id}
 						slideWidth={slidesWidthArr[i]}
 					>
 						<Img

@@ -1,0 +1,20 @@
+title: Galeria
+galleries:
+  - title: Domki letniskowe
+    images:
+      - file: ../img/003-A - P1.jpg
+        alt: ""
+      - file: ../img/003-A - P2.jpg
+        alt: ""
+      - file: ../img/003-A - P3.jpg
+        alt: ""
+  - title: Budynki
+    images:
+      - alt: ""
+        file: ../img/001-A - WIZUALIZACJA 1.jpg
+      - alt: ""
+        file: ../img/001-A - WIZUALIZACJA 2.jpg
+      - alt: ""
+        file: ../img/001-A - WIZUALIZACJA 3.jpg
+      - alt: ""
+        file: ../img/001-A - WIZUALIZACJA 4.jpg

@@ -43,7 +43,6 @@ const Slider = ({ images, children }) => {
 Slider.propTypes = {
 	images: PropTypes.arrayOf(
 		PropTypes.shape({
-			id: PropTypes.string.isRequired,
 			alt: PropTypes.string,
 			file: PropTypes.shape().isRequired,
 		}),

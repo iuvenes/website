@@ -6,30 +6,26 @@ import { SectionBright, SectionTitle, SectionSubtitle } from 'components/Share';
 import { Wrapper, Content } from './styles';
 
 const GalleryView = () => {
-	const {
-		contentYaml: { gallery },
-	} = useStaticQuery(graphql`
+	const { galleryYaml: gallery } = useStaticQuery(graphql`
 		{
-			contentYaml {
-				gallery {
+			galleryYaml {
+				title
+				galleries {
 					title
-					galleries {
-						title
-						images {
+					images {
+						alt
+						file {
 							id
-							alt
-							file {
-								childImageSharp {
-									fluid(quality: 75, maxWidth: 1600) {
-										aspectRatio
-										presentationHeight
-										...GatsbyImageSharpFluid_withWebp
-									}
-									original {
-										height
-										width
-										src
-									}
+							childImageSharp {
+								fluid(quality: 75, maxWidth: 1600) {
+									aspectRatio
+									presentationHeight
+									...GatsbyImageSharpFluid_withWebp
+								}
+								original {
+									height
+									width
+									src
 								}
 							}
 						}
@@ -47,7 +43,7 @@ const GalleryView = () => {
 		<Wrapper as={SectionBright}>
 			<SectionTitle>{sectionTitle}</SectionTitle>
 			{galleries.map(({ title, images }) => (
-				<Content>
+				<Content key={title}>
 					<SectionSubtitle>{title}</SectionSubtitle>
 					<Slider images={images}>
 						<Masonry />

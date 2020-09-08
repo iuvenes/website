@@ -13,27 +13,23 @@ import {
 } from './styles';
 
 const Projects = ({ id }) => {
-	const {
-		contentYaml: { projects },
-	} = useStaticQuery(graphql`
+	const { sliderYaml: projects } = useStaticQuery(graphql`
 		{
-			contentYaml {
-				projects {
+			sliderYaml {
+				title
+				button {
 					title
-					button {
-						title
-						to
-					}
-					images {
+					to
+				}
+				images {
+					alt
+					file {
 						id
-						alt
-						file {
-							childImageSharp {
-								fluid(quality: 75, maxWidth: 1600) {
-									aspectRatio
-									presentationHeight
-									...GatsbyImageSharpFluid_withWebp
-								}
+						childImageSharp {
+							fluid(quality: 75, maxWidth: 1600) {
+								aspectRatio
+								presentationHeight
+								...GatsbyImageSharpFluid_withWebp
 							}
 						}
 					}
