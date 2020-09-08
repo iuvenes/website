@@ -46,6 +46,13 @@ module.exports = {
 		'gatsby-plugin-sharp',
 		'gatsby-plugin-react-helmet',
 		{
+			resolve: 'gatsby-plugin-netlify-cms',
+			options: {
+				htmlTitle: 'Panel zarządzania',
+				htmlFavicon: (__dirname, 'src/assets/icons/iuvenes.png'),
+			},
+		},
+		{
 			resolve: 'gatsby-plugin-manifest',
 			options: {
 				name: 'Iuvenes Engineering',
