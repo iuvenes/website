@@ -1,0 +1,61 @@
+local_backend: true
+backend:
+  name: git-gateway
+media_folder: content/img
+public_folder: ../img/
+locale: pl
+slug:
+  encoding: ascii
+  clean_accents: true
+  sanitize_replacement: _
+collections:
+  - label: Zarządzaj Galerią
+    name: gallery
+    files:
+      - label: Zarządzaj galeriami
+        name: gallery
+        label_singular: galerię
+        description: Tutaj można dodawać i edytować Galerie.
+        file: content/gallery/gallery.yml
+        fields:
+          - label: Dodaj galerię
+            name: galleries
+            widget: list
+            required: false
+            fields:
+              - label: Tytuł galerii
+                name: title
+                widget: string
+              - label: zdjęcia
+                name: images
+                widget: list
+                fields:
+                  - lable: plik
+                    name: file
+                    widget: image
+                  - lable: alt
+                    name: alt
+                    widget: string
+                    required: false
+                    default: ''
+  - label: Zarządzaj Sliderem
+    name: projects
+    files:
+      - label: Zarządzaj sliderem
+        name: projects
+        description: Tutaj można dodawać i edytować Slider.
+        file: content/slider/slider.yml
+        fields:
+          - label: Zdjęcia
+            name: images
+            widget: list
+            required: false
+            fields:
+              - label: plik
+                name: file
+                widget: image
+              - label: alt
+                name: alt
+                widget: string
+                required: false
+                default: ''
